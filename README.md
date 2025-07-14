@@ -1,0 +1,15 @@
+# Sistema-Gestioanle-Di-Task-Didattici-Con-Badge
+
+Si desidera sviluppare un sistema software per la gestione di task didattici assegnati da docenti a studenti, con un meccanismo di punteggio e di riconoscimenti simbolici sotto forma di badge, assegnati automaticamente al raggiungimento di determinati obiettivi.
+
+Descrizione del Sistema:
+
+Il sistema consente l’accesso di docenti e studenti a una piattaforma digitale mediante autenticazione tramite credenziali personali. Al momento della registrazione, ciascun utente deve specificare il proprio ruolo (studente o docente), oltre a fornire nome, cognome e indirizzo e-mail istituzionale. Ogni docente ha la possibilità di creare una o più classi virtuali, ciascuna identificata da un nome e da un codice univoco. L’iscrizione di uno studente a una classe può avvenire in due modalità: il docente può iscrivere direttamente lo studente alla propria classe, oppure lo studente stesso può iscriversi autonomamente, inserendo il codice univoco della classe fornito dal docente. Ogni studente può essere iscritto ad una sola classe (per semplicità).
+
+All’interno di ogni classe, il docente può creare e assegnare task didattici agli studenti. Ogni task è definito da un titolo, una descrizione, una data di scadenza, un numero massimo di punti assegnabili. Gli studenti possono visualizzare l’elenco dei task assegnati direttamente all’interno del proprio profilo personale. Una volta selezionato un task, possono procedere con la consegna caricando la propria soluzione, che dovrà essere fornita in formato testuale attraverso un’apposita interfaccia. Il docente ha la facoltà di valutare ogni consegna assegnando un punteggio compreso tra zero e il massimo indicato nel task.
+
+Il sistema mantiene lo storico di tutte le attività svolte da ciascuno studente e i relativi punteggi ottenuti. In base al numero di punti accumulati o al numero di task completati, lo studente può sbloccare automaticamente dei badge, che rappresentano obiettivi raggiunti. Ogni badge è associato a un traguardo specifico, come ad esempio: completamento di 5, 10 o 20 task; accumulo di 100, 250 o 500 punti; completamento puntuale di una serie di task consecutivi; o ottenimento del punteggio massimo in più task. Ogni badge ha un nome, una descrizione, una data di ottenimento ed opzionalmente una immagine o icona rappresentativa. I badge sbloccati sono visibili all’interno del profilo dello studente.
+
+Lo studente ha quindi accesso a un profilo personale che consente di consultare l’elenco dei task assegnati, quelli già completati, i punteggi ottenuti, la media dei voti e la collezione dei badge conseguiti. I docenti, attraverso un’interfaccia dedicata, possono monitorare l’andamento complessivo della classe, visualizzando il rendimento medio, il numero di task assegnati e completati, nonché il livello di partecipazione degli studenti.
+
+Il sistema dovrà essere accessibile via web sia da desktop che da dispositivi mobili, con un’interfaccia grafica intuitiva e responsiva.
