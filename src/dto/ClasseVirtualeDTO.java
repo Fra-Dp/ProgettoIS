@@ -1,6 +1,5 @@
 package dto;
 
-
 /**
  * Data Transfer Object (DTO) per rappresentare una classe virtuale.
  * <p>

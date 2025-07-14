@@ -1,6 +1,5 @@
 package database;
 
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -209,10 +208,24 @@ public class StudenteDAO {
         return classeVirtualeCodiceUnivoco;
     }
 
+    /**
+     * Restituisce il profilo personale associato all'attività corrente.
+     * <p>
+     * Questo profilo rappresenta lo studente a cui è collegata l'attività.
+     *
+     * @return oggetto {@link ProfiloPersonaleDAO} associato
+     */
     public ProfiloPersonaleDAO getProfiloPersonaleAssociato() {
         return profiloPersonaleAssociato;
     }
 
+    /**
+     * Imposta il profilo personale associato all'attività.
+     * <p>
+     * Utilizzato per legare un'istanza di {@link ProfiloPersonaleDAO} all'attività corrente.
+     *
+     * @param profiloPersonaleAssociato profilo personale da associare
+     */
     public void setProfiloPersonaleAssociato(ProfiloPersonaleDAO profiloPersonaleAssociato) {
         this.profiloPersonaleAssociato = profiloPersonaleAssociato;
     }

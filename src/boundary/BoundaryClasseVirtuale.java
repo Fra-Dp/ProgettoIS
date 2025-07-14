@@ -14,7 +14,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.List;
 
-
 /**
  * La classe BoundaryClasseVirtuale rappresenta l'interfaccia grafica attraverso cui un docente può monitorare e gestire una classe virtuale.
  * <p>
@@ -77,7 +76,6 @@ public class BoundaryClasseVirtuale extends JFrame {
     private JTable table1;
     private JTable taskCompletatiTable;
     private JTable studentiConTaskCompletatiTable;
-
 
     /**
      * Costruisce e visualizza l'interfaccia della classe virtuale, associata al docente autenticato.

@@ -4,7 +4,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-
 /**
  * Data Access Object (DAO) per la gestione dei dati relativi ai docenti nel database.
  * <p>
